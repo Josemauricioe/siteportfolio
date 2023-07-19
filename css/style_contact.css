@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+body {  
+    min-height: 100vh;
+    
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    padding: 10px 50px 10px 50px;
+    background: rgba(154, 197, 244);
+    align-items: center;
+    box-shadow: 5px 5px 0px 0px rgb(39, 55, 77);
+    border-radius: 4px;
+    
+}
+
+
+.cabecalho p{
+    color: white;
+}
+
+.cabecalho a{
+    text-decoration: none;
+}
+
+.espaço{
+    padding: 0px 20px 80px  0px;
+ 
+    
+}
+
+.cont_geral{
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+    gap: 4rem;
+    padding: 0px 20px 0px 20px;
+    flex-wrap: wrap;
+    background-color: gray;
+    
+}
+
+.cont_pessoal{
+    border: 5px black solid;
+    background: url(/assets/imagens/fundo_2.png);
+    box-shadow: 10px 10px 0px 0px rgb(39, 55, 77);
+    border-radius: 20px;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 50px 70px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.texto_contato{
+    width: 20rem;   
+}
+
+
+
+.logo{
+    font-size: 24px;
+    font-family: Dancing Script;
+    padding-right: 20rem;
+    
+ }
+
+ .list{  
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    font-family: Dancing Script;
+    font-size: 17px;
+    color: black;
+}
+
+.rodape{
+    background-color: rgb(71, 169, 146);
+    padding: 0px 200px ;
+    border-radius: 2px;
+    font-weight: bold;
+    
+    box-shadow: 5px 5px 0px 0px rgb(39, 55, 77);
+    border: 4px black solid;
+    border-radius: 10px;
+    gap: 2rem;
+  }
+
+  .content{
+    
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .cont_dados{
+    display: flex;
+    gap: 5rem;
+  }
+
+  .rodape ul{
+    display: flex;
+    gap: 5px;
+    padding: 10px 0px 0px 0px;
+}
+
+.rodape img{
+    width: 40px;
+    border-radius: 10px;
+}
+
+.logo_rodape{
+    font-size: 38px;
+    font-family: Dancing Script;
+    
+ }
+
+.contatos{
+    border: 2px black solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+  
+  .texto_contado{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px
+  }
+
+  .DadosPessoas{
+    font-size: 20px;
+    padding: 50px 0px 50px 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem; 
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+
+  .DadosPessoas img{
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    box-shadow: 5px 5px 0px 0px rgb(39, 55, 77);
+    width: 310px; 
+    border-radius: 50px;  
+  }
+
+  .DadosEmpresa{
+    font-size: 20px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .texto{
+    width: 20rem;
+  }
+  

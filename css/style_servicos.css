@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {  
+    min-height: 100vh;
+    background: gray;
+    font-family: Dancing Script;
+}
+
+.cont_geral{
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    height: 100vh;
+    padding: 0px 20px 0px 20px;
+    flex-wrap: wrap;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    padding: 10px 50px 10px 50px;
+    background: rgba(154, 197, 244);
+    align-items: center;
+    box-shadow: 5px 5px 0px 0px rgb(39, 55, 77);
+    border-radius: 4px;
+}
+
+.cabecalho p{
+    color: white;
+}
+
+.cabecalho a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 24px;
+    font-family: Dancing Script;
+    padding-right: 20rem;
+ }
+
+ .list{  
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+}
+
+.espaço{
+    padding: 10px 0px 0px 0px;
+}   
+
+.servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+    padding: 10px 150px 20px 150px;
+    background-color: rgba(255, 235, 235, 0.066);
+    border-radius: 20px;
+    margin-top: 3rem;
+    box-shadow: 2px 2px 0px 0px rgb(39, 55, 77);
+    background-color: rgb(71, 169, 146);
+    
+}
+
+.servicos ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+   padding: 15px 0px 0px 0px;
+    font-weight: bold;
+    word-wrap: break-word;
+    
+}
+.servicos img{
+   border-radius: 10px;
+   box-shadow: 2px 2px 0px 0px rgb(39, 55, 77);
+    background-color: rgb(71, 169, 146);
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    height: 210px;
+    width: 210px;
+}
+.cont_servicos{
+    padding: 1px 150px 0px 150px;
+}
+.texto_principal{
+    font-family: Dancing Script;
+    font-size: 100px;
+}
+
+.card{
+    position: relative;
+    height: 180px;
+    width: 210px;
+    perspective: 1000px;
+    
+}
+.card:hover .flip{
+    transform: rotateY(180deg);
+}
+
+.card .flip{
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.front, .back{
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 210px;
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+
+
+.espaço_1{
+    padding: 30px 30px 10px 30px;
+    
+}
+  .rodape{
+    background-color: rgb(71, 169, 146);
+    padding: 0px 200px ;
+    border-radius: 2px;
+    font-weight: bold;
+    
+    box-shadow: 5px 5px 0px 0px rgb(39, 55, 77);
+    border: 4px black solid;
+    border-radius: 10px;
+    gap: 2rem;
+  }
+
+  .content{
+    
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  .cont_dados{
+    display: flex;
+    gap: 5rem;
+  }
+
+  .rodape ul{
+    display: flex;
+    gap: 5px;
+    padding: 10px 0px 0px 0px;
+}
+
+.rodape img{
+    width: 40px;
+    border-radius: 10px;
+}
+
+.logo_rodape{
+    font-size: 38px;
+    font-family: Dancing Script;
+    
+ }
+
+.contatos{
+    border: 2px black solid;
+    padding: 20px;
+    border-radius: 10px;
+}
